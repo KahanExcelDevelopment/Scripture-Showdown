@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+body {
+  background: radial-gradient(circle at center, #1e3c72, #162447, #0f172a);
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 700px;
+  height: 220px;
+}
+
+.logo-top {
+  font-size: 72px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  fill: url(#goldGrad);
+  text-anchor: middle;
+  font-family: "Luckiest Guy", cursive;
+  filter: drop-shadow(0 4px 0 #c97c00) drop-shadow(0 8px 0 #9f5e00)
+    drop-shadow(0 14px 12px rgba(0, 0, 0, 0.45));
+}
+
+.logo-bottom {
+  margin-top: -55px;
+  font-size: 82px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #e9741a;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 0 4px 0 #b8560d, 0 8px 0 #8f4308, 0 16px 14px rgba(0, 0, 0, 0.5);
+}
+
+.game-btn {
+  min-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  color: #fcb43f;
+  font-family: "Luckiest Guy", cursive;
+  margin-top: 60px;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3), 0px 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.game-btn:active {
+  transform: scale(0.96);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 5px;
+}
+
+.title {
+  color: #fcb43f;
+  font-family: "Luckiest Guy", cursive;
+  filter: drop-shadow(0 4px 0 #c97c00)
+    drop-shadow(0 14px 12px rgba(0, 0, 0, 0.45));
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+
+  text-align: center;
+}
