@@ -1,14 +1,25 @@
 const Difficulty = () => {
   return (
-    <div>
+    <div className="main-container">
       <h1 className="title">
         Choose Your
         <br /> Challenge!
       </h1>
-
-      <a href="/" className="game-btn">
-        Back
-      </a>
+      <button className="game-btn">
+        EASY
+        <br />
+        (40% All accuracy){" "}
+      </button>
+      <button className="game-btn">
+        NORMAL
+        <br />
+        (65% All accuracy){" "}
+      </button>
+      <button className="game-btn">
+        HARD
+        <br />
+        (85% All accuracy){" "}
+      </button>
     </div>
   );
 };

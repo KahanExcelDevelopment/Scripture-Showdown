@@ -15,10 +15,9 @@ const App = () => {
             <Button name="start game" route="/begin" variant="primary" />
             <Button
               name="choose difficulty"
-              route="/mode"
+              route="/Difficulty"
               variant="secondary"
             />
-            <Button name="settings" route="/difficulty" variant="tertiary" />
           </div>
         }
       />
