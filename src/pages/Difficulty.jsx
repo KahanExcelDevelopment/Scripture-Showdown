@@ -1,3 +1,5 @@
+import Back from "../components/Back";
+
 const Difficulty = () => {
   return (
     <div className="main-container">
@@ -20,6 +22,7 @@ const Difficulty = () => {
         <br />
         (85% All accuracy){" "}
       </button>
+      <Back />
     </div>
   );
 };
