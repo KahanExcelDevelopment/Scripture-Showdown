@@ -4,6 +4,8 @@ import Difficulty from "./pages/Difficulty";
 import { Routes, Route } from "react-router-dom";
 import Back from "./components/Back";
 import Rules from "./pages/Rules";
+import Play from "./pages/Play";
+import Next from "./components/Next";
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
 
       <Route path="/difficulty" element={<Difficulty />} />
       <Route path="/rules" element={<Rules />} />
+      <Route path="/play" element={<Play />} />
+      <Route path="/next" element={<Play />} />
     </Routes>
   );
 };
