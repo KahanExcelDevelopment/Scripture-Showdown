@@ -1,5 +1,6 @@
 const Play = () => {
-  return <div>PLAY</div>;
+  return;
+  <div></div>;
 };
 
 export default Play;
